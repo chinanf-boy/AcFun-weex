@@ -7,7 +7,7 @@ let utilFunc = {
         });
         domModule.addRule('fontFace', {
             'fontFamily': "acfunicon",
-            'src': "url('http://at.alicdn.com/t/font_459170_nx7jeece6fe3tyb9.ttf')"
+            'src': "url('http://at.alicdn.com/t/font_459170_tq1d9u7ugxp0t3xr.ttf')"
         });
     }}
 
