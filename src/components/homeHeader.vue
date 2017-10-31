@@ -1,7 +1,12 @@
 <template>
+<div>
+  <div class="reload">
+        <text class="title">G</text>
+    
+</div>
   <div class="header">
     <div class="logo" @click="jump('/')">
-      <image class="image" src="https://news.ycombinator.com/favicon.ico"></image>
+      <image class="image" src="https://tse1-mm.cn.bing.net/th?id=OIP.PHb0y2KEfxpy2Otquk4_IAEsBg&p=0&pid=1.1"></image>
     </div>
     <div class="nav">
       <div class="link" @click="jump('/game')">
@@ -19,45 +24,51 @@
       </div>
     </div>
   </div>
+  </div>
 </template>
 
 <style scoped>
-  .header {
+  .reload {
     position: relative;
-    height: 120px;
+    width: 750px;
+    height: 100px;
+  }
+  .header {
+    width: 750px;
+    position: absolute;
+    height: 100px;
     margin-bottom: 3px;
     border-bottom-width: 2px;
     border-bottom-style: solid;
     border-bottom-color: #DDDDDD;
-    background-color: #FF6600;
+    background-color: rgba(255, 14, 14, 0.63);
   }
   .logo {
-    position: relative;
-    width: 50px;
-    height: 50px;
-    top: 35px;
-    left: 35px;
+    position: absolute;
+      height: 60px;
+      width: 120px;
+    bottom: 15px;
     border-width: 3px;
     border-style: solid;
     border-color: #FFFFFF;
   }
   .image {
-    width: 44px;
-    height: 44px;
+    max-width: 120px;
+    height: 60px;
   }
   .nav {
     display: flex;
     position: absolute;
-    right: 120px;
-    top: 35px;
+    right: 5px;
+    bottom: 15px;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: flex-start;
     align-items: right;
   }
   .link {
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
   }
   .title {
     font-family: Verdana, Geneva, sans-serif;

@@ -1,7 +1,7 @@
 <template>
     <slider class="slider" auto-play="true" interval="5000" @change="onchange">
-        <div class="frame" v-for="img in imageList">
-            <image class="image" resize="cover" :src="img.src"></image>
+        <div class="frame" v-for="img in imageList" v-bind:key="img.src">
+            <image class="image" :src="img.src"></image>
         </div>
         <indicator class="indicator"></indicator>
     </slider>
@@ -12,15 +12,15 @@
     }
     .image {
         width: 750px;
-        height: 430px;
+        height: 260px;
     }
     .slider {
         width: 750px;
-        height: 430px;
+        height: 260px;
     }
     .frame {
         width: 750px;
-        height: 430px;
+        height: 260px;
         position: relative;
     }
     .indicator {
