@@ -4,6 +4,7 @@ import StoriesView from './views/StoriesView.vue'
 import ArticleView from './views/ArticleView.vue'
 import CommentView from './views/CommentView.vue'
 import UserView from './views/UserView.vue'
+import HomeView from "./views/HomeView.vue"
 
 Vue.use(Router)
 
@@ -20,6 +21,7 @@ function createStoriesView (type) {
 export default new Router({
   // mode: 'abstract',
   routes: [
+    { path: '/home', component: HomeView },    
     { path: '/top', component: createStoriesView('top') },
     { path: '/new', component: createStoriesView('new') },
     { path: '/show', component: createStoriesView('show') },
