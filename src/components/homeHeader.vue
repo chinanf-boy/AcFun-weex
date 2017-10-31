@@ -1,8 +1,11 @@
 <template>
 <div>
   <div class="reload">
-        <text class="title">G</text>
+        
     
+</div>
+<div class="back">
+
 </div>
   <div class="header">
     <div class="logo" @click="jump('/')">
@@ -33,10 +36,19 @@
     width: 750px;
     height: 100px;
   }
+  .back{
+    position: fixed;
+    z-index: 99999;
+    
+    width: 750px;
+    height: 100px;
+    background-color: #fff;
+  }
   .header {
     width: 750px;
-    position: absolute;
+    position: fixed;
     height: 100px;
+    z-index: 99999;
     margin-bottom: 3px;
     border-bottom-width: 2px;
     border-bottom-style: solid;

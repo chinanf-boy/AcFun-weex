@@ -19,7 +19,7 @@
   .titlelogo {
     position: relative;
     margin-top: 15px;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     height: 50px;
     left: 15px;
     flex-direction: row;
@@ -90,7 +90,7 @@
         top:0;
         left: 0;
         width: 350px;
-        border-width: 3px;
+        border-width: 4px;
         border-color: transparent;
         height: 200px;
     }

@@ -4,6 +4,8 @@
     <picslider :imageList="picsliderPic"></picslider>
   <catalogue-video :imglist='topvideo' :title={好啊}> </catalogue-video>
     <top></top>
+  <catalogue-video :imglist='topvideo' :title={好啊}> </catalogue-video>
+    
   </div>
 
 </template>
