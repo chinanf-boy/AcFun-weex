@@ -4,8 +4,9 @@
     <picslider :imageList="picsliderPic"></picslider>
   <catalogue-video :imglist='topvideo' :title={好啊}> </catalogue-video>
     <top></top>
+    <greybar></greybar>
   <catalogue-video :imglist='topvideo' :title={好啊}> </catalogue-video>
-    
+    <bannerlist :bannerlist='topvideo'></bannerlist>
   </div>
 
 </template>
@@ -15,7 +16,8 @@ import homeHeader from "../components/homeHeader.vue";
 import picslider from "../components/picslider.vue";
 import catalogueVideo from "../components/video-catalogue.vue";
 import top from "../components/Top.vue";
-
+import bannerlist from "../components/banner-top.vue"
+import greybar from "../components/grey-bar.vue";
 
 export default {
   data() {
@@ -48,7 +50,9 @@ export default {
     "home-header": homeHeader,
     "picslider": picslider,
     "catalogue-video": catalogueVideo,
-    "top": top
+    "top": top,
+    "bannerlist":bannerlist,
+    "greybar": greybar
   }
 };
 </script>
