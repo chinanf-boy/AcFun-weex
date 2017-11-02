@@ -3,7 +3,7 @@
 ![项目](./project-pic.png)
 
  图片瞎拉的
-![样式](./acfun.png)
+![样式](./acfun.jpg)
  
 这个项目的 配置是 fork [weex-hacknews](https://github.com/weexteam/weex-hackernews)
 
