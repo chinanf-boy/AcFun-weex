@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="whit-bar">
   <div class="white-bar"></div>    
   <div class="grey-bar"></div>
   <div class="white-bar"></div>
@@ -16,13 +16,13 @@ export default {
 <style>
 .grey-bar{
   position: relative;
-    width: 375px;
+    width: 750px;
     height: 6px;
     background-color: #80808066;
 }
 .white-bar{
   position: relative;
-    width: 375px;
+    width: 750px;
     height: 5px;
     background-color: #fff;
 }

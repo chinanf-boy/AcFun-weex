@@ -17,7 +17,7 @@ import picslider from "../components/picslider.vue";
 import catalogueVideo from "../components/video-catalogue.vue";
 import top from "../components/Top.vue";
 import bannerlist from "../components/banner-top.vue"
-import greybar from "../components/grey-bar.vue";
+import greybar from "../components/greybar.vue";
 
 export default {
   data() {
