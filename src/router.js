@@ -1,7 +1,7 @@
 // import Vue from 'vue'
 import Router from 'vue-router'
 import HomeView from "./views/HomeView.vue"
-import ActicleView from "./views/ActivleView.vue"
+import ActicleView from "./views/ActicleView.vue"
 Vue.use(Router)
 
 // Story view factory
