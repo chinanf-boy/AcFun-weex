@@ -1,11 +1,7 @@
 // import Vue from 'vue'
 import Router from 'vue-router'
-import StoriesView from './views/StoriesView.vue'
-import ArticleView from './views/ArticleView.vue'
-import CommentView from './views/CommentView.vue'
-import UserView from './views/UserView.vue'
 import HomeView from "./views/HomeView.vue"
-
+import ActicleView from "./views/ActivleView.vue"
 Vue.use(Router)
 
 // Story view factory
@@ -22,14 +18,8 @@ export default new Router({
   // mode: 'abstract',
   routes: [
     { path: '/home', component: HomeView },    
-    { path: '/top', component: createStoriesView('top') },
-    { path: '/new', component: createStoriesView('new') },
-    { path: '/show', component: createStoriesView('show') },
-    { path: '/ask', component: createStoriesView('ask') },
-    { path: '/job', component: createStoriesView('job') },
-    { path: '/article/:url(.*)?', component: ArticleView },
-    { path: '/item/:id(\\d+)', component: CommentView },
-    { path: '/user/:id', component: UserView },
+    { path: '/acticle', component: ActicleView },    
+    
     { path: '/', redirect: '/home' }
   ]
 })
