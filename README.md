@@ -2,6 +2,9 @@
 
 ![项目](./project-pic.png)
 
+ 图片瞎拉的
+![样式](./acfun.png)
+ 
 这个项目的 配置是 fork [weex-hacknews](https://github.com/weexteam/weex-hackernews)
 
 只是浅试了一下 Acfun 首页 发现写下去，就是在写一个样式，因为没有 acfun api
