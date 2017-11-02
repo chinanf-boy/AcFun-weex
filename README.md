@@ -1,6 +1,34 @@
 # Acfun Weex
 
 ![项目](./project-pic.png)
+
+这个项目的 配置是 fork [weex-hacknews](https://github.com/weexteam/weex-hackernews)
+
+只是浅试了一下 Acfun 首页 发现写下去，就是在写一个样式，因为没有 acfun api
+
+样式的更多可以查看 [![GitHub stars](https://img.shields.io/github/stars/zwwill/yanxuan-weex-demo.svg)](https://github.com/zwwill/yanxuan-weex-demo/stargazers)[严选高仿](https://github.com/zwwill/yanxuan-weex-demo)
+
+真正写了一个客户端 连接 ``hacknews-api`` 可以看[![GitHub stars](https://img.shields.io/github/stars/weexteam/weex-hackernews.svg)](https://github.com/weexteam/weex-hackernews/stargazers)[weex-hacknews](https://github.com/weexteam/weex-hackernews)
+
+>上面那个思维图就是参照 weex-hacknews 
+>可以在 [processon.com](https://www.processon.com/view/link/59facf44e4b0f84f897610ee)查看更多
+
+## 受不了
+
+配置 才是最烦的 官方工具模版中 build文件夹 文件就 config 文件 就十几的还不一定对
+
+可以了解以下 [钉钉weex微应用与微信小程序的实坑](https://zhuanlan.zhihu.com/p/28644960)
+
+# bug
+
+## src/components/greybar.vue ``bug``
+
+和其他同目录文件 用 750px 但是 却没有被 weex 自适应 750/2 px
+
+
+
+
+
 ## 编译项目文件
 
 安装依赖：
@@ -43,22 +71,3 @@ npm run serve
 
 启动服务后会监听 1337 端口，访问 http://127.0.0.1:1337/index.html 即可在浏览器中预览页面。
 
-### 启动 Android 项目
-
-首先应该安装 [Android Studio](https://developer.android.com/studio/index.html) 和必要的 Android SDK，配置好基本的开发环境。
-
-使用 Android Studio 打开 `android` 目录中的项目，等待自动安装完依赖以后，即可启动模拟器或者真机预览页面。
-
-### 启动 iOS 项目
-
-首先应该配置好 [iOS 开发环境](https://developer.apple.com/library/content/documentation/IDEs/Conceptual/AppStoreDistributionTutorial/Setup/Setup.html) 并且安装 [CocoaPods](https://guides.cocoapods.org/using/getting-started.html) 工具。
-
-进入 `ios` 目录，使用 CocoaPods 安装依赖：
-
-```
-pod install
-```
-
-使用 Xcode 打开 `ios` 目录中的项目（`HackerNews.xcworkspace`），然后即可启动模拟器预览页面。
-
-> 注：如果想要在真机上查看效果，还需要配置开发者签名等信息。
